@@ -11,21 +11,18 @@ function LoginPage() {
        
       <div className="w-full md:w-1/2 flex flex-col px-8 py-6 bg-white ml-4">
 
-         {/* Logo Section (optional) */}
         <div>
-          {/* If you have a ManTech logo, place it here */}
-          {/* <img src="/path/to/mantech-logo.png" alt="ManTech Logo" className="h-8" /> */}
           <img 
           src={mantech_logo}
           alt="Mantech Logo"
           className="h-8 w-32"     
           />
         </div>
-        {/* "Log in" Title */}
+     
         <div className="mt-20">
             <h2 className="text-4xl font-bold mb-6">Log in</h2>
 
-            {/* Username Field */}
+        
             <div className="mb-4">
             <label className="block text-gray-700 font-semibold mb-2">
                 Username
@@ -38,7 +35,7 @@ function LoginPage() {
             />
             </div>
 
-            {/* Password Field */}
+         
             <div className="mb-4 relative">
             <label className="block text-gray-700 font-semibold mb-2">
                 Password
@@ -62,14 +59,14 @@ function LoginPage() {
             </button>
             </div>
 
-            {/* Forgot Password */}
+         
             <div className="text-right mb-6">
             <a href="#!" className="text-red-500 hover:underline">
                 Forgot password ?
             </a>
             </div>
 
-            {/* Login Button */}
+           
             <button
             type="button"
             className="w-full bg-blue-600 text-white py-2 rounded-full
@@ -78,14 +75,12 @@ function LoginPage() {
             Login
             </button>
 
-            {/* Version Info */}
             <p className="text-sm text-gray-400 mt-20">
             Version 1.0 | © All rights reserved by ManTech
             </p>
         </div>
       </div>
 
-      {/* Right side illustration */}
       <div className="hidden md:flex md:w-full items-center justify-center relative h-screen">
         <img
           src={rightSideImage}
